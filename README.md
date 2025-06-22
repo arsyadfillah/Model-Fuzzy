@@ -33,9 +33,12 @@ Columns used:
 - `Gender`, `AGE`, `Urea`, `Cr`, `HbA1c`, `Chol`, `TG`, `HDL`, `LDL`, `VLDL`, `BMI`, `CLASS`.
 
 Fuzzy variables:
+Input (antecedent)
 - **HbA1c**: Low, Normal, High  
 - **BMI**: Skinny, Normal, Fat
-
+- **Chol**: Low,Normal,High
+Output (consequent)
+- **isDiabetes**: True or False
 ---
 
 ## 🛠 Installation
